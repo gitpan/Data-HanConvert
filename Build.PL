@@ -1,0 +1,33 @@
+
+use strict;
+use warnings;
+
+use Module::Build 0.3601;
+
+
+my %module_build_args = (
+  "build_requires" => {
+    "Module::Build" => "0.3601"
+  },
+  "configure_requires" => {
+    "ExtUtils::MakeMaker" => "6.30",
+    "Module::Build" => "0.3601"
+  },
+  "dist_abstract" => "The data for converting between traditional and simplified Chinese languages.",
+  "dist_author" => [
+    "Kang-min Liu <gugod\@gugod.org>"
+  ],
+  "dist_name" => "Data-HanConvert",
+  "dist_version" => "1.0",
+  "license" => "unrestricted",
+  "module_name" => "Data::HanConvert",
+  "recommends" => {},
+  "recursive_test_files" => 1,
+  "requires" => {},
+  "script_files" => []
+);
+
+
+my $build = Module::Build->new(%module_build_args);
+
+$build->create_build_script;

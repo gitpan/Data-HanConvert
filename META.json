@@ -1,0 +1,42 @@
+{
+   "abstract" : "The data for converting between traditional and simplified Chinese languages.",
+   "author" : [
+      "Kang-min Liu <gugod@gugod.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300024, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "unrestricted"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Data-HanConvert",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30",
+            "Module::Build" : "0.3601"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/perltaiwan/Data-HanConvert"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/perltaiwan/Data-HanConvert.git",
+         "web" : "https://github.com/perltaiwan/Data-HanConvert"
+      }
+   },
+   "version" : "1.0"
+}
+
