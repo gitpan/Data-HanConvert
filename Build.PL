@@ -19,7 +19,7 @@ my %module_build_args = (
     "Kang-min Liu <gugod\@gugod.org>"
   ],
   "dist_name" => "Data-HanConvert",
-  "dist_version" => "1.11",
+  "dist_version" => "1.2",
   "license" => "unrestricted",
   "module_name" => "Data::HanConvert",
   "recommends" => {},

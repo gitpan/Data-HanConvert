@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "unrestricted",
   "NAME" => "Data::HanConvert",
   "PREREQ_PM" => {},
-  "VERSION" => "1.11",
+  "VERSION" => "1.2",
   "test" => {
     "TESTS" => "t/*.t"
   }

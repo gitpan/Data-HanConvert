@@ -18,4 +18,4 @@ name: Data-HanConvert
 resources:
   bugtracker: https://github.com/perltaiwan/Data-HanConvert
   repository: git://github.com/perltaiwan/Data-HanConvert.git
-version: 1.11
+version: 1.2
