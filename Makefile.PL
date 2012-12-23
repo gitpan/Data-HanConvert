@@ -12,7 +12,8 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "The data for converting between traditional and simplified Chinese languages.",
   "AUTHOR" => "Kang-min Liu <gugod\@gugod.org>",
   "BUILD_REQUIRES" => {
-    "Module::Build" => "0.3601"
+    "Module::Build" => "0.3601",
+    "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30",
@@ -23,7 +24,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "unrestricted",
   "NAME" => "Data::HanConvert",
   "PREREQ_PM" => {},
-  "VERSION" => "1.0",
+  "VERSION" => "1.1",
   "test" => {
     "TESTS" => "t/*.t"
   }

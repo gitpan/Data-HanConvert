@@ -12,7 +12,7 @@ Data::HanConvert - The data for converting between traditional and simplified Ch
 
 =head1 VERSION
 
-version 1.0
+version 1.1
 
 =head1 DESCRIPTION
 

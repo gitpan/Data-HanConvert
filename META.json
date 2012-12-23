@@ -4,7 +4,7 @@
       "Kang-min Liu <gugod@gugod.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300024, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "unrestricted"
    ],
@@ -24,6 +24,11 @@
             "ExtUtils::MakeMaker" : "6.30",
             "Module::Build" : "0.3601"
          }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
       }
    },
    "release_status" : "stable",
@@ -37,6 +42,6 @@
          "web" : "https://github.com/perltaiwan/Data-HanConvert"
       }
    },
-   "version" : "1.0"
+   "version" : "1.1"
 }
 
