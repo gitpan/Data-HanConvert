@@ -1,7 +1,5 @@
 package Data::HanConvert;
-{
-  $Data::HanConvert::VERSION = '1.2';
-}
+$Data::HanConvert::VERSION = '1.3';
 1;
 
 __END__
@@ -14,7 +12,7 @@ Data::HanConvert - The data for converting between traditional and simplified Ch
 
 =head1 VERSION
 
-version 1.2
+version 1.3
 
 =head1 DESCRIPTION
 
