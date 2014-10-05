@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Data::HanConvert",
   "PREREQ_PM" => {},
-  "VERSION" => "1.4",
+  "VERSION" => "1.5",
   "test" => {
     "TESTS" => "t/*.t"
   }
